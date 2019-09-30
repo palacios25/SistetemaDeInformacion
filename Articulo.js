@@ -26,4 +26,24 @@ export default class Articulo{
     get descripcion(){
         return this._descripcion;
     }
+
+    set codigo(codigo){
+        this._codigo = codigo;
+    }
+
+    set nombre(nombre){
+        this._nombre = nombre;
+    }
+
+    set precio(precio){
+        this._precio =  precio;
+    }
+
+    set cantidad(cantidad){
+        this._cantidad = cantidad;
+    }
+
+    set descripcion(descripcion){
+        this._descripcion = descripcion;
+    }
 }
